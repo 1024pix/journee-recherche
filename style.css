@@ -8,7 +8,8 @@ body {
 .presentation {
   padding: 50px;
   background-image: url('img/background-title.jpg');
-  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
   min-height: 350px;
 }
 
@@ -20,13 +21,14 @@ h1 {
   font-style: italic;
   font-size: 2rem;
 }
+
 p {
   font-size: 1.4rem;
 }
+
 .block {
-  width: 100%;
   min-height: 200px;
-  padding: 50px 50px 50px 100px;
+  padding: 50px 0px 50px 100px;
 
 }
 
